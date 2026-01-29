@@ -1,21 +1,17 @@
-# AgroPatrol
-🌱 AgroPatrol Robot – AI/ML Based Smart Farm Surveillance System
-AgroPatrol Robot is an intelligent farm surveillance system designed to protect agricultural land from animal intrusions using Artificial Intelligence and Machine Learning. The robot autonomously patrols farmland and uses an ESP32-CAM module to capture real-time images and video streams.
-Using trained AI/ML models, the system detects and classifies different types of animals entering the farm area. Once an animal is identified, the data is processed in real time and stored in a database. Through a web-based application, instant alerts are sent to the farmer, providing details about the detected animal and enabling quick action to prevent crop damage.
-This project aims to reduce human effort, minimize crop losses, and introduce smart technology into traditional farming practices—especially suitable for regions like Sri Lanka where wildlife intrusion is a major challenge.
+# AgroPatrol Robot
+🤖 AgroPatrol Robot – Autonomous Farm Patrolling Robot
+AgroPatrol Robot is an autonomous robotic system designed to patrol farmland and assist in protecting crops from animal intrusions. The robot is built to navigate agricultural environments while carrying onboard sensors and a camera module for continuous monitoring.
+The system is powered by a microcontroller and motor driver setup that enables controlled movement across the field. A camera mounted on the robot captures real-time visuals, which are transmitted to a monitoring system for further processing and decision-making. The robot follows predefined patrol paths and operates with minimal human intervention.
+This project focuses on the mechanical design, motor control, navigation, and embedded system integration required to build a reliable agricultural patrolling robot. It serves as a foundation that can be extended with intelligent features such as computer vision and automation.
 🔹 Key Features
-Real-time animal detection and classification using AI/ML
-ESP32-CAM based live image capture
-Automated farm patrolling system
-Web application for real-time alerts and monitoring
-Centralized database for detected animal records
-🔹 Technologies Used
-Python (Machine Learning & Data Processing)
-ESP32-CAM
-Computer Vision
-Web Application (for alerts and dashboard)
-Database Management
-🔹 Use Case
-Smart agriculture
-Crop protection
-Wildlife intrusion monitoring
+Autonomous farm patrolling mechanism
+Motor control and navigation system
+ESP32-based embedded control
+Real-time camera feed from the robot
+Designed for outdoor agricultural environments
+🔹 Technologies & Components
+ESP32 / Microcontroller
+DC motors & motor driver module
+Camera module (ESP32-CAM)
+Embedded C / Arduino programming
+Power management system
